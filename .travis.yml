@@ -13,13 +13,12 @@ deploy:
   region: "us-east-2"
   app: "docker"
   env: "Docker-env"
-  bucker_name: "elasticbeanstalk-us-east-2-717024191043"
+  bucket_name: "elasticbeanstalk-us-east-2-717024191043"
   bucket_path: "docker"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: 
     secure: "$AWS_SECRET_KEY"
-# Access key ID:  AKIA2N4PY4JB74HFH5UK
-# Secret Access Key:  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
+
 language: generic
